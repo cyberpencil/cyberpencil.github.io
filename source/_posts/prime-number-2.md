@@ -21,27 +21,27 @@ mathjax: true
 ### 数学形式
 
 $$
-\zeta(s)=0,\quad 0<\operatorname{Re}(s)<1
+\zeta(s)=0,\quad 0<\mathrm{Re}(s)<1
 \quad\Longrightarrow\quad
-\operatorname{Re}(s)=\frac{1}{2}.
+\mathrm{Re}(s)=\frac{1}{2}.
 $$
 
-即：若 $\zeta(s)=0$ 且 $0<\operatorname{Re}(s)<1$，则
-$\operatorname{Re}(s)=\frac{1}{2}$。
+即：若 $\zeta(s)=0$ 且 $0<\mathrm{Re}(s)<1$，则
+$\mathrm{Re}(s)=\frac{1}{2}$。
 
 ### 非平凡零点表述
 
 设 $\rho$ 为黎曼 $\zeta$ 函数的非平凡零点，则
 
 $$
-\operatorname{Re}(\rho)=\frac{1}{2}.
+\mathrm{Re}(\rho)=\frac{1}{2}.
 $$
 
 等价地，
 
 $$
 \forall \rho\in\mathbb{C},\quad
-\bigl(\zeta(\rho)=0\ \land\ 0<\operatorname{Re}(\rho)<1\bigr)
+\bigl(\zeta(\rho)=0\ \land\ 0<\mathrm{Re}(\rho)<1\bigr)
 \Longrightarrow
-\operatorname{Re}(\rho)=\frac{1}{2}.
+\mathrm{Re}(\rho)=\frac{1}{2}.
 $$
