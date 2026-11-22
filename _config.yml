@@ -11,7 +11,9 @@ root: /                                 # 因为这是用户/组织站点，根�
 permalink: :year/:month/:day/:title/    # 文章链接格式，保持默认即可
 
 # Deployment
-deploy:
-  type: git
-  repo: git@github.com:cyberpencil/cyberpencil.github.io.git
-  branch: main        # GitHub Pages 默认使用 main 分支
+
+# MathJax（hexo-filter-mathjax：构建期内渲染为 SVG，无需前端 JS）
+mathjax:
+  every_page: true      # 对所有文章生效，无需在每篇文章写 mathjax: true
+  single_dollars: true  # 支持 $...$ 行内公式；$$...$$ 始终支持
+  tags: none            # 公式不自动编号
