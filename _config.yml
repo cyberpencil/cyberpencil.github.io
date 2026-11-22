@@ -1,0 +1,17 @@
+title: Evan's homepage
+description: Show Time!
+author: Evan
+language: zh-CN
+timezone: 'Asia/Shanghai'
+
+# URL
+## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
+url: https://cyberpencil.github.io   
+root: /                                 # 因为这是用户/组织站点，根目录就是 /
+permalink: :year/:month/:day/:title/    # 文章链接格式，保持默认即可
+
+# Deployment
+deploy:
+  type: git
+  repo: git@github.com:cyberpencil/cyberpencil.github.io.git
+  branch: main        # GitHub Pages 默认使用 main 分支
