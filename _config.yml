@@ -4,6 +4,13 @@ author: Evan
 language: zh-CN
 timezone: 'Asia/Shanghai'
 
+post_asset_folder: true
+relative_link: false
+
+marked:
+  prependRoot: true
+  postAsset: true
+
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
 url: https://cyberpencil.github.io   
@@ -17,3 +24,4 @@ mathjax:
   every_page: true      # 对所有文章生效，无需在每篇文章写 mathjax: true
   single_dollars: true  # 支持 $...$ 行内公式；$$...$$ 始终支持
   tags: none            # 公式不自动编号
+
